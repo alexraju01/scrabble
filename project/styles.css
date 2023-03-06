@@ -29,6 +29,8 @@ h1{
 }
 
 
+/* power tile styling */
+
 .triple-word {
     background-color: red;
     text-align: center;
@@ -41,4 +43,20 @@ h1{
     text-align: center;
     font-size: 10px;
 }
+
+.double-word {
+    background-color: orange;
+    text-align: center;
+    font-size: 10px;
+}
+.triple-letter {
+    background-color: lightpink;
+    text-align: center;
+    font-size: 10px;
+}
+
+.star{
+    background-image: linear-gradient(red, yellow, purple);;
+}
+
 
