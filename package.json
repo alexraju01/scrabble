@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon server.js"
   },
-  "name": "scramble",
+  "name": "scrabble",
   "version": "1.0.0",
   "description": "Game",
   "main": "server.js",

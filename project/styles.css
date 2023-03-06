@@ -13,12 +13,9 @@ h1{
     background-color: blanchedalmond;
     width:700px;
     height: 700px;
-    margin: 0 auto;
+    margin: 0 auto;                                 /* centers the board */
     display: grid;
     grid-template-columns: repeat(15, 1fr);
-    /* gap:2px; */
-    /* column-gap: ; */
-    /* grid-auto-rows: minmax(23px, auto); */
 }
 
 .tile {
@@ -27,4 +24,21 @@ h1{
     height: auto;
     border: 1px solid black;
     border-radius: 5px;
+    padding:0;
+    margin: 0;
 }
+
+
+.triple-word {
+    background-color: red;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+.double-letter{
+    background-color:  lightblue;
+    text-align: center;
+    font-size: 10px;
+}
+
