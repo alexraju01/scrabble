@@ -1,0 +1,30 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+h1{
+
+    text-align: center;
+}
+
+#board{
+    background-color: blanchedalmond;
+    width:700px;
+    height: 700px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    /* gap:2px; */
+    /* column-gap: ; */
+    /* grid-auto-rows: minmax(23px, auto); */
+}
+
+.tile {
+    background-color: aqua;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
