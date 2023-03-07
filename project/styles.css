@@ -3,60 +3,94 @@
     padding: 0;
 } */
 
-
-h1{
-
-    text-align: center;
+body {
+  background-color: #ac6249;
 }
 
-#board{
-    background-color: blanchedalmond;
-    width:700px;
-    height: 700px;
-    margin: 0 auto;                                 /* centers the board */
-    display: grid;
-    grid-template-columns: repeat(15, 1fr);
+h1 {
+  text-align: center;
+}
+
+#board {
+  background-color: blanchedalmond;
+  width: 700px;
+  height: 700px;
+  margin: 0 auto; /* centers the board */
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  border-radius: 5px;
 }
 
 .tile {
-    background-color: aqua;
-    width: auto;
-    height: auto;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding:0;
-    margin: 0;
+  background-color: #e9e1ce;
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
 }
-
 
 /* power tile styling */
 
 .triple-word {
-    background-color: red;
-    text-align: center;
-    font-size: 10px;
+  background-color: red;
+  text-align: center;
+  font-size: 10px;
 }
 
-
-.double-letter{
-    background-color:  lightblue;
-    text-align: center;
-    font-size: 10px;
+.double-letter {
+  background-color: lightblue;
+  text-align: center;
+  font-size: 10px;
 }
 
 .double-word {
-    background-color: orange;
-    text-align: center;
-    font-size: 10px;
+  background-color: orange;
+  text-align: center;
+  font-size: 10px;
 }
 .triple-letter {
-    background-color: lightpink;
-    text-align: center;
-    font-size: 10px;
+  background-color: lightpink;
+  text-align: center;
+  font-size: 10px;
 }
 
-.star{
-    background-image: linear-gradient(red, yellow, purple);;
+.star {
+  background-image: linear-gradient(red, yellow, purple);
 }
 
+#rack {
+  background-color: peachpuff;
+  text-align: center;
+  margin: 2em auto;
+  width: 35em;
+  height: 5em;
+  border: 2px solid black;
+  border-radius: 10px;
+}
 
+.player-tile {
+  background-color: #af925b;
+  width: 42px;
+  height: 42px;
+  margin: 10px 10px;
+  display: inline-block;
+  text-align: center;
+  line-height: 2.5em;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.player-tile p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  float: right;
+  position: relative;
+  top: -120px;
+}
